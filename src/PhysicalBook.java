@@ -1,4 +1,4 @@
-public class PysicalBook extends Book {
+public class PhysicalBook extends Book {
     private String shelfNumber;
     private double weight;
     private int Quantity;
@@ -27,7 +27,7 @@ public class PysicalBook extends Book {
         Quantity = quantity;
     }
 
-    public PysicalBook(String name, double price, int pages, String type, String author, String shelfNumber, double weight, int quantity) {
+    public PhysicalBook(String name, double price, int pages, String type, String author, String shelfNumber, double weight, int quantity) {
         super(name, price, pages, type, author);
         this.shelfNumber = shelfNumber;
         this.weight = weight;
